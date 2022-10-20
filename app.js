@@ -27,9 +27,9 @@
          const body = req.body.body.body
          const from = req.body.body.from
         
-         client.sendMessage(from, body);
+         await client.sendMessage(from, body);
          // await sendMessage(client, from, body);
-
+            console.log('mensaje', body)
          res.status(200).send({ message: "Mensaje enviado whatsApp"});
      } catch (error) {
          res.status(400).send(error).json();
