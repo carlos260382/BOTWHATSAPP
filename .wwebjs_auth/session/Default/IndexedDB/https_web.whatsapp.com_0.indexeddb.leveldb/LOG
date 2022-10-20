@@ -1,0 +1,12 @@
+2022/10/20-08:11:52.330 1040 Creating DB D:\BOTS WHATSAPP\DEPLOYADO_GITHUB\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2022/10/20-08:11:52.560 1040 Reusing MANIFEST D:\BOTS WHATSAPP\DEPLOYADO_GITHUB\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/20-08:12:29.548 1040 Level-0 table #5: started
+2022/10/20-08:12:29.781 1040 Level-0 table #5: 1167065 bytes OK
+2022/10/20-08:12:30.069 1040 Delete type=0 #3
+2022/10/20-08:12:41.219 3270 Level-0 table #7: started
+2022/10/20-08:12:41.401 3270 Level-0 table #7: 1367682 bytes OK
+2022/10/20-08:12:41.484 3270 Delete type=0 #4
+2022/10/20-08:12:41.497 3270 Compacting 1@1 + 1@2 files
+2022/10/20-08:12:41.863 3270 Generated table #8@1: 17109 keys, 1567668 bytes
+2022/10/20-08:12:41.877 3270 Compacted 1@1 + 1@2 files => 1567668 bytes
+2022/10/20-08:12:41.935 3270 compacted to: files[ 0 0 1 0 0 0 0 ]
