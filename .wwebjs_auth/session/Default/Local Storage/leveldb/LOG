@@ -1,2 +1,6 @@
-2022/10/20-08:11:40.973 23d8 Creating DB D:\BOTS WHATSAPP\DEPLOYADO_GITHUB\.wwebjs_auth\session\Default\Local Storage\leveldb since it was missing.
-2022/10/20-08:11:41.178 23d8 Reusing MANIFEST D:\BOTS WHATSAPP\DEPLOYADO_GITHUB\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2022/10/20-08:42:21.266 1f70 Reusing MANIFEST D:\BOTS WHATSAPP\DEPLOYADO_GITHUB\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2022/10/20-08:42:21.269 1f70 Recovering log #3
+2022/10/20-08:42:21.270 1f70 Reusing old log D:\BOTS WHATSAPP\DEPLOYADO_GITHUB\.wwebjs_auth\session\Default\Local Storage\leveldb/000003.log 
+2022/10/20-08:48:21.831 790 Level-0 table #5: started
+2022/10/20-08:48:21.920 790 Level-0 table #5: 28547 bytes OK
+2022/10/20-08:48:21.962 790 Delete type=0 #3
