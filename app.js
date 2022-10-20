@@ -26,7 +26,7 @@
      try {
          const body = req.body.body.body
          const from = req.body.body.from
-        
+        console.log('number', from)
          await client.sendMessage(from, body);
          // await sendMessage(client, from, body);
             console.log('mensaje', body)
