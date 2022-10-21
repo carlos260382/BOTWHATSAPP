@@ -18,17 +18,22 @@
  const server = require('http').Server(app)
  
  const port = process.env.PORT || 3001
- var client;
+ 
  app.use('/', require('./routes/web'))
  app.use('/', require('./routes/api'))
  
+ const client = new Client({
+    authStrategy: new LocalAuth(),
+    puppeteer: { headless: true, args: ['--no-sandbox','--disable-setuid-sandbox'] }
+});
+
   app.post("/received", async (req, res) => {
      try {
          const body = req.body.body.body
          const from = req.body.body.from
         console.log('number', from)
-         await client.sendMessage(from, body);
-         // await sendMessage(client, from, body);
+       // await client.sendMessage(from, body);
+         await sendMessage(client, from, body);
             console.log('mensaje', body)
          res.status(200).send({ message: "Mensaje enviado whatsApp"});
      } catch (error) {
@@ -139,10 +144,7 @@
  
  
  
- client = new Client({
-         authStrategy: new LocalAuth(),
-         puppeteer: { headless: true, args: ['--no-sandbox','--disable-setuid-sandbox'] }
-     });
+
      
  client.on('qr', qr => generateImage(qr, () => {
          qrcode.generate(qr, { small: true });

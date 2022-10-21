@@ -1,2 +1,3 @@
-2022/10/20-08:19:47.370 cdc Creating DB D:\BOTS WHATSAPP\DEPLOYADO_GITHUB\.wwebjs_auth\session\Default\Local Storage\leveldb since it was missing.
-2022/10/20-08:19:47.569 cdc Reusing MANIFEST D:\BOTS WHATSAPP\DEPLOYADO_GITHUB\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2022/10/21-16:37:47.452 b10 Reusing MANIFEST D:\BOTS WHATSAPP\DEPLOYADO_GITHUB\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2022/10/21-16:37:47.453 b10 Recovering log #3
+2022/10/21-16:37:47.454 b10 Reusing old log D:\BOTS WHATSAPP\DEPLOYADO_GITHUB\.wwebjs_auth\session\Default\Local Storage\leveldb/000003.log 
